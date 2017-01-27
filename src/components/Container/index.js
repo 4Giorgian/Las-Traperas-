@@ -1,11 +1,14 @@
 import React, { PropTypes } from "react"
 
-// import styles from "./index.css"
+import styles from"./index.css"
 
 const Container = (props) => (
-  <div id="page">
+  <div className={styles.Container}>
+  <div className={styles.page}>
     { props.children }
   </div>
+  </div>
+  
 )
 
 Container.propTypes = {

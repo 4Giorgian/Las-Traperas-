@@ -5,10 +5,12 @@ import React, { PropTypes } from "react"
 // import twitterSvg from "../icons/iconmonstr-twitter-1.svg"
 // import gitHubSvg from "../icons/iconmonstr-github-1.svg"
 
-// import styles from "./index.css"
+import styles from "./index.css"
 
 const Boton = ({paginaDestino}) => (
-  <li><a href={"#/"+paginaDestino.toLowerCase()+".html"}>{paginaDestino}</a></li>
+  <li className={styles.li}>
+    <a className={styles.a} href={"#/"+paginaDestino.toLowerCase()+".html"}>{paginaDestino}</a>
+  </li>
 )
 
 Boton.propTypes = {

@@ -1,4 +1,4 @@
-.footer {
+/*.footer {
   text-align: center;
 }
 
@@ -11,4 +11,14 @@
 
 .phenomicReferenceName {
   font-weight: 100;
+}*/
+.footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
 }
+	 .parrafo{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}

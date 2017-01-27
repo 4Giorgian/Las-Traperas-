@@ -4,6 +4,7 @@ import React, { PropTypes } from "react"
 //
 // import twitterSvg from "../icons/iconmonstr-twitter-1.svg"
 // import gitHubSvg from "../icons/iconmonstr-github-1.svg"
+import styles from  "./index.css"
 
 import Boton from '../Boton'
 
@@ -11,10 +12,10 @@ import Boton from '../Boton'
 
 const Header = () => (
   <header>
-      <div id="logo">
+      <div className={styles.logo}>
         <h1><a href="/" id="logoLink">My First Website</a></h1>
       </div>
-      <div id="nav">
+      <div className={styles.nav}>
         <ul>
           <Boton paginaDestino="Home1111111" />
           <Boton paginaDestino="About" />
