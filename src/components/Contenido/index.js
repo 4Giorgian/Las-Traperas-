@@ -1,11 +1,13 @@
 import React, { PropTypes } from "react"
 
+import styles from "./index.css"
 
 const Contenido = ({nombre, texto}) => (
-  <p>
-    {nombre}
-    {texto}
-  </p>
+  <div className={styles.content}>
+    <h2>{nombre}</h2>
+    <p>{texto}</p>
+    <p>{texto}</p>
+  </div>
 )
 
 Contenido.propTypes = {

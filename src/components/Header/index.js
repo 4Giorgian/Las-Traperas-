@@ -17,7 +17,7 @@ const Header = () => (
       </div>
       <div className={styles.nav}>
         <ul>
-          <Boton paginaDestino="Home1111111" />
+          <Boton paginaDestino="Home" />
           <Boton paginaDestino="About" />
           <Boton paginaDestino="Contact" />
         </ul>
